@@ -23,7 +23,7 @@ public class StandaloneBeanTest {
     @Test
     public void testReturnMessage() throws Exception {
         logger.info("Testing standalone.ejb.StandaloneBean.resturnMessage()");
-        StandaloneBean instance = (StandaloneBean) this.ctx.lookup("java:global/classes/StandaloneBean");
+        StandaloneBean instance = (StandaloneBean) this.ctx.lookup("java:global/bin/StandaloneBean");
         String expResult = "Greetings!";
         String result = instance.returnMessage();
         Assert.assertEquals(expResult, result);
