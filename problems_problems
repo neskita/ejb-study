@@ -1,0 +1,10 @@
+java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
+
+javax.ejb.EJBException: No EJBContainer provider available: no provider names had been found.
+
+--> using glassfish3 server (&jars)
+container seems to start but....
+javax.naming.NamingException: Lookup failed for 'java:global/classes/StandaloneBean' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.url.pkgs=com.sun.enterprise.naming, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl} [Root exception is javax.naming.NameNotFoundException: classes]
+
+
+

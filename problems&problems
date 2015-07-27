@@ -1,3 +1,0 @@
-java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
-
-javax.ejb.EJBException: No EJBContainer provider available: no provider names had been found.
